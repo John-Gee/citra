@@ -27,3 +27,6 @@ deploy:
   skip_cleanup: true
 notifications:
   email: false
+branches:
+  only:
+  - master
