@@ -14,7 +14,6 @@ if [ "$TRAVIS_BRANCH" = "master" ]; then
         UPLOAD_DIR="/citra/nightly/osx-amd64"
         mkdir "$REV_NAME"
 
-        brew install lftp
         cp build/src/citra/Release/citra "$REV_NAME"
         cp -r build/src/citra_qt/Release/citra-qt.app "$REV_NAME"
 
