@@ -23,6 +23,6 @@ deploy:
   provider: releases
   api_key:
     secure: f6FDgxLRb0ccEFIwD9BQvS06bnuTX1LJapnTOH7QSIACK7/pIVjut8hRMRW0THW7HL3bzcs/WZMLrmWtJGsc2CQ94LrkT9ZwZ325amnn6z3x+n3nIrkknYsHhUagXTw+Ygc7bM43l1iQxxXPNLQrmFUeT3/ITL/PlH/BZbMJR7aa2VmXWOxYI2ubkwX4EVQ/bHY/HX8TiUXIYYh4eT5OR0lYYzEvGfddcE6+h1J/iAhdcwtVZizfRlrNlpHyYUHX5nPoPAlrr7BtINeZHJeH10Og8mEWw8PtVspntyffhv2lyIAiFTn1FCayIs7mBupJFelmcxG5LVQ27NjCjXwnZnzfQZGsBOZtWL6mRhuneOpYuVcsy4xmu56xnX/K7E6m/gWG86iJBPAREjaJJ3Oj3zqX3vl6OefAbyGxuSHH9r1/l0cjP4pyf7wHp6vi0J0De5Ha7lUEn9cKwoVJAyUqKm5s81XTUQOOv6X2Wl1dVTChgrbybjI5eWZd/K3vba5+ldnxgMzQG0woaCGMAP9LTy77Tq5fMs9/SRg2IP68pCszvkoQdc2n2uWbUklokj5U2Z1rReKJKFBceIZLH/PQ/56MtGNVkfnp3a+/9Wc0jmTMoKHctEl2IiJWClwJl7rFeeFQgaqqihsGG5L/k1WxRN6u5jTwjvXgdHYWHAiNxlY=
-  file: "citra*.xz"
+  file: citra*.tar.xz
   file_glob: true
   skip_cleanup: true
