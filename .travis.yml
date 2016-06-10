@@ -24,3 +24,11 @@ addons:
 install: ./.travis-deps.sh
 script: ./.travis-build.sh
 after_success: ./.travis-upload.sh
+
+deploy:
+  provider: releases
+  api_key: "e692c1651923d2fadbb4988231dd236bf1e55c05"
+  file:
+    - "build/src/citra/citra"
+    - "build/src/citra_qt/citra-qt"
+  skip_cleanup: true
